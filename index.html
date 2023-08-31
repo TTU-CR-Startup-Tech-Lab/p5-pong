@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Pong! in p5.js</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <main>
+
+            <div class="header">
+                <h1 class="title">A P5.js <span class="pong-title">PONG!</span></h1>
+                <h2 class="subtitle">A intro project using a JavaScript library for creative coding</h2>
+            </div>
+
+            <div class="game">
+                <span>Your Score: <span id="current-score"></span></span>
+                <div id="canvas-container"></div>
+                <h4>High Score: <span id="high-score"></span></h4>
+                <span>History of Games:</span>
+                <span id="score-list"></span>
+            </div>
+
+            <div class="controls">
+                <button class="button" id="start">Start</button>
+                <button class="button" id="reset">Reset All</button>
+            </div>
+
+        </main>
+    </body>
+</html>
